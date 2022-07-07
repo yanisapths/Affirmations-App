@@ -1,6 +1,4 @@
 # Affirmations-App
-![image](https://user-images.githubusercontent.com/72002605/177662228-06ca2f93-e911-446e-86d3-908022a8cea2.png)
-
 
 ## Adding a recyclerView 
 
@@ -36,6 +34,9 @@
    - Create a custom _ViewHolder_ class (represent a single ist item view) extend from _ReyclerView.viewHoder_ class.
    - Modify _ItemAdapter_ class to extend from the _RecyclerView.Adapter_ class with the custom ViewHolder class.
    - Implement methods within the adapter ( _getItemsCount() , onCreateViewHolder(), and onBindViewHolder()_ )
+   ![image](https://user-images.githubusercontent.com/72002605/177662228-06ca2f93-e911-446e-86d3-908022a8cea2.png)
 
-    
+## Adding images to the list item
+![image](https://user-images.githubusercontent.com/72002605/177665175-0a88ae0e-831b-438b-924c-4986b1651508.png)
+
    
