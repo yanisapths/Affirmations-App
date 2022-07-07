@@ -18,7 +18,7 @@ import com.example.affirmations.model.Affirmation
 
     // ItemViewHolder is only used by ItemAdapter
     // ItemViewHolder is a subclass of recyclerView.ViewHolder, and pass the "view" param into the superclass constructor.
-    // define a val property of textView that is of type TextView. Assign the view with ID "item_view".
+    // define a val property of textView that is of type TextView. Assign the view with ID "item_title".
         class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
             val textView: TextView = view.findViewById(R.id.item_title)
         }
