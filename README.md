@@ -20,6 +20,22 @@
   that should be used for holding a single child view.
   
  ![image](https://user-images.githubusercontent.com/72002605/177455704-8600446e-12d7-42e2-af10-895b289a240d.png)
+ 
+ 
+ ## Summary 
+ 
+ #### RecyclerView
+   - Helps display a list of data
+   - Use the adapter pattern to adapt and display the data.
+   - Comes with built in 'LayoutManager' , 'RecyclerView' delegates how items are laid out to LayoutManagers.
+ #### ViewHolder
+   - Creates and holds the view for RecyclerView
+   
+ ## To implement the adapter
+   - Create a new class for adpter, ex. _ItemAdapter_
+   - Create a custom _ViewHolder_ class (represent a single ist item view) extend from _ReyclerView.viewHoder_ class.
+   - Modify _ItemAdapter_ class to extend from the _RecyclerView.Adapter_ class with the custom ViewHolder class.
+   - Implement methods within the adapter ( _getItemsCount() , onCreateViewHolder(), and onBindViewHolder()_ )
 
     
    
