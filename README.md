@@ -1,4 +1,5 @@
 # Affirmations-App
+![image](https://user-images.githubusercontent.com/72002605/177681247-a7049d73-f197-4be1-b65d-3b39a03cbed5.png)
 
 ## Adding a recyclerView 
 
